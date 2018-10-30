@@ -36,5 +36,30 @@
 
 	  }
 	```
+>data中根据自己的情况添加数据
+
+```
+    menulist:[
+      {
+        "id":"1",
+        "url":"../../images/top.png",
+        "title":"顶部",
+      },
+      {
+        "id": "2",
+        "url": "../../images/add.png",
+        "title": "添加",
+      },
+      {
+        "id": "3",
+        "url": "../../images/buy.png",
+        "title": "购物车",
+      },
+    ],
+    mainmodel:{
+      "url": "../../images/home.png",
+      "title": "菜单",
+    }
+```
 
 完毕！O(∩_∩)O~~
