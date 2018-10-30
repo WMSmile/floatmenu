@@ -1,6 +1,6 @@
 # 微信小程序可折叠菜单
 
-[作品显示](show.gif)
+![作品显示](show.gif)
 
 
 1. 把components/menu文件拉入项目中
