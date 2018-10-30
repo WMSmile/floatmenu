@@ -8,9 +8,9 @@
 
 2. 在使用悬浮菜单的.wxml ,添加以下代码
 
+	>bindmenuItemClick为按钮点击的时候的回调方法  mainmodel是显示的按钮，menulist为折叠的菜单的数组数据
  
 	```
-	<!--bindmenuItemClick为按钮点击的时候的回调方法  mainmodel是显示的按钮，menulist为折叠的菜单的数组数据-->
 <menu bindmenuItemClick="menuItemClick" mainmodel="{{mainmodel}}" menulist ="{{menulist}}" ></menu>
 
 	```
