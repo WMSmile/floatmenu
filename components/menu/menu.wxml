@@ -1,0 +1,16 @@
+<!--components/menu/menu.wxml-->
+<view class='menu_box'>
+    <view hidden='{{showmenus}}' class=''>
+    <block wx:for='{{menulist}}' wx:key='menulist'>
+      <view class='menu_main' catchtap='itemclick' data-item='{{item}}'>
+        <image class='menu_img' src='{{item.url}}' />
+        <text class='menu_title'  hidden='{{mainmodel.title.length > 0 ? flase:true}}'>{{item.title}}</text>
+      </view>
+    </block>
+    </view>
+    <view catchtap='showclick' class='menu_main'>
+      <image class='menu_img' src='{{mainmodel.url}}' />
+      <text class='menu_title' hidden='{{mainmodel.title.length > 0 ? flase:true}}'>{{mainmodel.title}}</text>
+    </view>
+</view>
+
