@@ -10,14 +10,17 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     menulist:[
       {
+        "id":"1",
         "url":"../../images/top.png",
         "title":"顶部",
       },
       {
+        "id": "2",
         "url": "../../images/add.png",
         "title": "添加",
       },
       {
+        "id": "3",
         "url": "../../images/buy.png",
         "title": "购物车",
       },
