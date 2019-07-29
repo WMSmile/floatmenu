@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "menu": "/components/menu/menu"
+    "menu": "/components/menu/menu",
+    "movemenu": "/components/movemenu/movemenu"
   }
 }
